@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-- <![endif]-->
 <html>
 
 <head>
@@ -233,6 +233,7 @@
 		h2,
 		p {
 			margin: 1em 0;
+			margin-botton: 2rem;
 		}
 
 		h2 {
@@ -372,6 +373,7 @@
 
 		button.cta {
 			padding: 0.75em 1.5em;
+			margin-top: 4rem;
 			background: white;
 			color: black;
 			border: none;
@@ -395,8 +397,26 @@
 			font-size: 1rem;
 		}
 
+		.aboutUs {
+			font-size: 1rem;
+		}
 		
 	}
+	@media screen and (max-width: 420px) {
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		p {
+			font-size: 1rem;
+		}
+
+		.aboutUs {
+			font-size: 1rem;
+		}
+		
+	}
+
 	</style>
 </head>
 
@@ -412,7 +432,6 @@
 				<span class="hamburger-line"></span>
 			</button>
 			<ul class="top-menu" id="top-menu">
-				<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 				<li><a target="_blank" href="https://docs.google.com/forms/d/1AckWcIhjONbrtmqJC-uqjmPPoz3eWkCAOdYFdJ1qdKM/edit">Contact</a></li>
 				<li><a target="_blank" href="#about">About</a></li>
 				<li><a target="_blank" href="./gallery.html">Gallery</a></li>
@@ -422,6 +441,8 @@
 <header class="hero">
 	<div class="content">
 		<h1>Jonto Construction Service</h1>
+		<span class="aboutUs">We are a Tampa-based, family owned construction company. We cover the <strong>Central Florida</strong> area, spanning as far as <strong>Ocala</strong>, <strong>Sarasota</strong>, <strong>Orlando</strong>, <strong>Clearwater</strong> and everywhere in between. We offer <em>land management</em>, <em>underground pipe installation</em>, <em>grading</em>, <em>excavation</em> and <strong><em>so much more</em></strong>!</span>
+		<br/>
 		<button class="cta"><a target="_blank"
 				href="https://docs.google.com/forms/d/1AckWcIhjONbrtmqJC-uqjmPPoz3eWkCAOdYFdJ1qdKM/edit">Contact
 				Today</a></button>
@@ -433,9 +454,7 @@
 		<div class="tab-row" style="text-align: center;">
 			<div class="col-12">
 				<h2>Commercial & Residential</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptatum repudiandae aliquam, sit
-					quasi ipsa! Quidem dolorum, sit beatae laboriosam error cupiditate veniam commodi, animi, asperiores
-					consequuntur laborum. Quod, deleniti.</p>
+					<p>We work to meet the standards of homeowners associations as well as corporate clients. Our skillset and equipment make us the perfect choice for renovations, remodeling, restoration and general revision.</p>
 				<button class="cta"><a target="_blank"
 						href="https://docs.google.com/forms/d/1AckWcIhjONbrtmqJC-uqjmPPoz3eWkCAOdYFdJ1qdKM/edit">Contact
 						Today</a></button>
@@ -445,8 +464,8 @@
 		<div class="tab-row">
 			<div class="col-12">
 				<h2>Land Management</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nihil dignissimos eos repellat
-					perferendis qui corrupti explicabo vel inventore minima.</p>
+				<p>Take control of your land! We specialize in <strong>Forestry Mulching</strong>, <strong</p>
+				<br/>
 				<button class="cta"><a target="_blank"
 						href="https://docs.google.com/forms/d/1AckWcIhjONbrtmqJC-uqjmPPoz3eWkCAOdYFdJ1qdKM/edit">Contact
 						Today</a></button>
@@ -457,9 +476,10 @@
 	<section>
 		<div id="about" class="tab-row">
 			<div class="col-12" style="text-align: center;">
-				<h2>Underground</h2>
+				<h2>Underground</h2>			
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga porro sapiente, corporis dignissimos
 					laudantium illo expedita corrupti asperiores esse quae.</p>
+				<br/>
 				<button class="cta"><a target="_blank"
 						href="https://docs.google.com/forms/d/1AckWcIhjONbrtmqJC-uqjmPPoz3eWkCAOdYFdJ1qdKM/edit">Contact
 						Today</a></button>
@@ -473,12 +493,6 @@
 		<div class="col-12" style="text-align: center;">
 			<p><i class="fa fa-phone" aria-hidden="true"></i> +44 (0)123 456 789</p>
 			<p><i class="fa fa-envelope" aria-hidden="true"></i> info@landingpage.com</p>
-		</div>
-		<div class="col-12" style="text-align: center;">
-			<h3> About Us</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a unde iste harum quis veritatis
-				laudantium tempora, error veniam, incidunt?</p>
-			</ul>
 		</div>
 	</div>
 	<hr>
